@@ -1,3 +1,3 @@
-<h1> Project Title </h1>
+<h3> Project Title </h3>
 # coinFlipLottery
 
