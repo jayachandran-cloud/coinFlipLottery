@@ -1,10 +1,10 @@
-<h3> Project Title </h3>
+<h2> Project Title </h2>
 # coinFlipLottery
 
-<h3> Problem Statement </h3>
+<h2> Problem Statement </h2>
  https://trigon.notion.site/Web3-Solidity-Challenge-Coin-Flip-d6f6e38c664a4d68bc03615c1009cb0f
  
- <h3>sample Transactions </h3>
+ <h2>sample Transactions </h2>
  <h4>contract link</h4>
  https://rinkeby.etherscan.io/address/0x46c57c5783a0a54e00b865a39958eaea277d1228
  <h4>lottery deployment </h4>
@@ -17,7 +17,7 @@
  <h4> pick winner (by admin )(VRF number generation is called internally)
  https://rinkeby.etherscan.io/tx/0xfa4e6cb711435985a2b9199588e624792a3a0d8189403a2095c60f591c65696e
  
- <h3> code explanation </h3>
+ <h2> code explanation </h2>
  
  <p>The details (players address,is he already voted(IsInLotterypool),bettingNumber(0 or 1),amount(thst he wanted to bet on that number),is the joining balance(100 points) creditted or not ) are stored  in a array of structure(for each player) and mapped to their addresses (for accessing each players details)</p>
   <p>and then the whole structure is mapped to completed bets on completion of each bet .then the structure is resetted to default.</p>
