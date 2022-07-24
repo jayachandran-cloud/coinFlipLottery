@@ -29,3 +29,4 @@
   <p>After a while the Admin(the one who deploys the contract) of the lottery calls pickWinner(), then it does call random number generation function(it generates random number) , the random number generator calls the rewardBet() function (which chooses the winners ,rewards them ,mappes this lottery to completedBets and resets the array of structure)<p>
   <p>and the players can withdraw their points into ether(1point ==0.001eth),and they can deposit ether to add more points for betting<p>
   <p>if a lot of people wins the lottery we must pay them more then the income ,so a minimum amount of 0.01eth must be sent to the contract when we deploy it(in worst case every one in the lottery wins means,we must pay double the amount ,so we must have balance in our contract to pay them)</p>
+![ss2](https://user-images.githubusercontent.com/79778475/180653583-911e9494-ab56-4a96-bf21-197883519d78.png)
