@@ -2,7 +2,7 @@
 # coinFlipLottery
 
 <h2> Problem Statement </h2>
- https://trigon.notion.site/Web3-Solidity-Challenge-Coin-Flip-d6f6e38c664a4d68bc03615c1009cb0f
+ https://comet-cat-2b9.notion.site/Web3-Solidity-Challenge-Coin-Flip-4a074a51c63b4b18b41d33d88dd0c8f4
  
  <h2>sample Transactions </h2>
  <h4>contract link</h4>
@@ -23,10 +23,10 @@
   <p>and then the whole structure is mapped to completed bets on completion of each bet .then the structure is resetted to default.</p>
   <p>The balance of the player is mapped seperately as given in the problem statement(if we stored the balance in the structure ,it will go back to default on completion of each bet(we don't need it because on completion of each lottery someone wins/losses ,so their balance needs to be stored seperately)</p>
  <br>
-![struct](https://user-images.githubusercontent.com/79778475/180630599-7dc0f7bc-8cd5-46bd-9619-dd768416d2aa.png)
+<img src="https://user-images.githubusercontent.com/79778475/180630599-7dc0f7bc-8cd5-46bd-9619-dd768416d2aa.png">
 <br>
   <p>As giveen in the problem statement players can bet their amount on their preferred number(0 or 1) by calling enterLottery() function <p>
   <p>After a while the Admin(the one who deploys the contract) of the lottery calls pickWinner(), then it does call random number generation function(it generates random number) , the random number generator calls the rewardBet() function (which chooses the winners ,rewards them ,mappes this lottery to completedBets and resets the array of structure)<p>
   <p>and the players can withdraw their points into ether(1point ==0.001eth),and they can deposit ether to add more points for betting<p>
   <p>if a lot of people wins the lottery we must pay them more then the income ,so a minimum amount of 0.01eth must be sent to the contract when we deploy it(in worst case every one in the lottery wins means,we must pay double the amount ,so we must have balance in our contract to pay them)</p>
-![ss2](https://user-images.githubusercontent.com/79778475/180653583-911e9494-ab56-4a96-bf21-197883519d78.png)
+<img src="https://user-images.githubusercontent.com/79778475/180653583-911e9494-ab56-4a96-bf21-197883519d78.png">
